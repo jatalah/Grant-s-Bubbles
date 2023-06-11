@@ -1,0 +1,21 @@
+Something along these lines for the methods and supplementary material table caption.
+Let me know if you need other stats or tweaks for these.
+
+
+To examine the effects of treatment and time on the percentage cover of bare space, biofilm, and macrofouling, we used generalised linear mixed models with beta errors in the glmmTMB library (Brooks et al., 2017) in the R software (R Core Team, 2022). Our models had treatment (two levels: Bubbled and Control) and months (four levels: months zero to four) as fixed orthogonal factors and block (two levels) as a random effect. We validated our models by inspecting simulated residuals using the Dharma R library (Hartig, 2022). We further investigated relevant terms via Bonferroni-adjusted pairwise comparisons using the emmeans library (Lenth, 2023). 
+
+ 
+
+Table 1. Results of generalised linear mixed models examining the fixed effects of treatment and months on the percentage cover of bare space, biofilm and macrofouling. σ2 indicates the model residual variance. τ00 indicates the random effects variance component of Block. Significant values are indicated in bold. n = 197 
+
+ 
+
+References 
+
+Brooks, M. E., K. Kristensen, K. J. van Benthem, A. Magnusson, C. W. Berg, A. Nielsen, H. J. Skaug, M. Maechler, and B. M. Bolker. 2017. Modeling Zero-Inflated Count Data With glmmTMB. bioRxiv. 
+
+Hartig, F., 2022. DHARMa: residual diagnostics for hierarchical (multi-level/mixed) regression models. R package version 0.4.5. 
+
+Lenth, R. 2023. emmeans: Estimated Marginal Means, aka Least-Squares Means. R package version   1.8.4-1, <https://CRAN.R-project.org/package=emmeans>. 
+
+R Core Team. 2022. R: A language and environment for statistical computing. R Foundation for Statistical Computing, Vienna, Austria. URL https://www.R-project.org/. 
