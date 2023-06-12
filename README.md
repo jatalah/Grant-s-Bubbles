@@ -1,6 +1,7 @@
 <b>SHORT COMMUNICATION: APPLICATION OF BUBBLE STREAMS TO CONTROL BIOFOULING ON MARINE INFRASTRUCTURE - PONTOON-SCALE IMPLEMENTATION</b>
+<br>
 
-Grant A. Hopkins, Nicholas Scott, Patrick L. Cahill
+Grant A. Hopkins, Nicholas Scott, Patrick L. Cahill<br>
 Cawthron Institute, Private Bag 2, Nelson 7042, New Zealand
 
 ABSTRACT
